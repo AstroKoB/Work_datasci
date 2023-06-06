@@ -4,7 +4,12 @@ $filePath = "C:\path\to\file.txt"  # Specify the path to the text file containin
 $urls = Get-Content -Path $filePath | Where-Object { $_ -notlike '#*' }
 
 # Prompt for the number of URLs to open
-$numberOfURLs = Read-Host "Enter the number of URLs to open at a time"
+$numberOfURLs = Read-Host "Enter the number of URLs to open at a time (enter 0 to open all URLs)"
+
+# Determine the number of URLs to open
+if ($numberOfURLs -eq "0") {
+    $numberOfURLs = $urls.Count
+}
 
 # Loop through the URLs and open them in Google Chrome
 $counter = 0
