@@ -7,9 +7,13 @@ $urls = Get-Content -Path $filePath | Where-Object { $_ -notlike '#*' }
 $numberOfURLs = Read-Host "Enter the number of URLs to open at a time"
 
 # Loop through the URLs and open them in Google Chrome
-for ($i = 0; $i -lt $urls.Count; $i += $numberOfURLs) {
-    $batch = $urls[$i..($i + $numberOfURLs - 1)]
-    $batch | ForEach-Object {
-        Start-Process "chrome" $_
+$counter = 0
+foreach ($url in $urls) {
+    Start-Process "chrome" $url
+    
+    $counter++
+    if ($counter -eq $numberOfURLs) {
+        $counter = 0
+        Read-Host "Press Enter to continue..."
     }
 }
