@@ -1,0 +1,15 @@
+$filePath = "C:\path\to\file.txt"  # Specify the path to the text file containing URLs
+
+# Read the content of the text file, excluding lines starting with #
+$urls = Get-Content -Path $filePath | Where-Object { $_ -notlike '#*' }
+
+# Prompt for the number of URLs to open
+$numberOfURLs = Read-Host "Enter the number of URLs to open at a time"
+
+# Loop through the URLs and open them in Google Chrome
+for ($i = 0; $i -lt $urls.Count; $i += $numberOfURLs) {
+    $batch = $urls[$i..($i + $numberOfURLs - 1)]
+    $batch | ForEach-Object {
+        Start-Process "chrome" $_
+    }
+}
