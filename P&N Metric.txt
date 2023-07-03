@@ -1,87 +1,89 @@
+# Metric = Metric Name 
+# Tag = True if higher value is a postive outcome
 Metric	Tag
-Cases the police refer to the CPS for a charging decision	Positive
-Cases the police refer to the CPS for a charging decision (per 100,000 population)	Positive
-Cases where a guilty plea is expected and entered at the first court hearing (%)	Positive
-Investigations closed because no suspect has been identified (%)	Negative
-Investigations which result in a charge (% of all investigations closed in the same time period)	Positive
-Investigations which result in a charge in the same time period in which the offence is recorded (%)	Positive
-Not-guilty expected plea cases submitted by the police that comply with the guidance on charging (%)	Positive
-Not-guilty expected plea cases submitted by the police that have been assessed against the guidance on charging	Positive
-Recorded adult rape offences	Negative
-Recorded adult rape offences (per 100,000 population)	Negative
-Average days taken for police to charge an offender	Negative
-Average days taken for police to record a successful outcome	Positive
-Investigations closed because the victim does not support police action (%)	Negative
-Number of suspects the police refer to the CPS for early advice or for a charging decision	Positive
-Number of suspects the police refer to the CPS for early advice or for a charging decision (per 100,000 population)	Positive
-Legal decisions by the CPS that result in a charge (%)	Positive
-Legal decisions by the CPS that result in an out of court disposal (%)	Positive
-Legal decisions by the CPS where the decision is not to prosecute (%)	Negative
-Number of suspects finalised on the CPS system where further investigation is needed and a response is pending from the police	Negative
-Number of suspects finalised on the CPS system where further investigation is needed and a response is pending from the police (per 100,000 population)	Negative
-Number of suspects waiting for the CPS to provide early advice or a charging decision, or with the police needing further investigation	Negative
-Number of suspects waiting for the CPS to provide early advice or a charging decision, or with the police needing further investigation (per 100,000 population)	Negative
-Number of suspects where a CPS decision on charging has been made	Positive
-Number of suspects where a CPS decision on charging has been made (per 100,000 population)	Positive
-Number of suspects where the CPS decided to authorise a charge or out of court disposal, not to allow charge or that further investigation is needed and a response is pending from the police	Negative
-Number of suspects where the CPS decided to authorise a charge or out of court disposal, not to allow charge or that further investigation is needed and a response is pending from the police (per 100,000 population)	Negative
-Post-trial cases where the decisions to charge and proceed to trial are correct (%)	Positive
-Prosecutions stopped by the CPS	Negative
-Prosecutions stopped by the CPS (per 100,000 population)	Negative
-Average days from police referring a case to the CPS and the CPS authorising a charge	Negative
-Defendants who have a case outstanding in the magistrates' courts or at the Crown Court	Negative
-Defendants who have a case outstanding in the magistrates' courts or at the Crown Court (per 100,000 population)	Negative
-Legal pre-charge reviews completed by the CPS within 28 days (%)	Positive
-Cases stopped after a defendant has been charged because a victim no longer supports the prosecution (%)	Negative
-Number of suspects the CPS authorised to be charged	Positive
-Number of suspects the CPS authorised to be charged (per 100,000 population)	Positive
-Cases where the prosecution end cases on the day of trial (%)	Negative
-Cases which are rearranged on the day of trial (%)	Negative
-Cases which resulted in a completed trial (%)	Positive
-Cases which resulted in a completed trial or guilty plea (%)	Positive
-Completed cases at the Crown Court	Positive
-Early guilty plea rate (%)	Positive
-Guilty plea rate (%)	Positive
-Witnesses who have given evidence via Section 28	Positive
-Average days from arrival to case completion at the Crown Court	Negative
-Average days from case arrival at the Crown Court to case completion (not remanded in custody)	Negative
-Average days from case arrival at the Crown Court to case completion (remanded in custody)	Negative
-Average days from charge to case arrival at the Crown Court	Negative
-Average days from charge to case arrival at the Crown Court (not remanded in custody)	Negative
-Average days from charge to case arrival at the Crown Court (remanded in custody)	Negative
-Average days from charge to case completion (not remanded in custody)	Negative
-Average days from charge to case completion (remanded in custody)	Negative
-Average days from charge to case completion at the Crown Court	Negative
-Cases outstanding at the Crown Court	Negative
-Trial cases outstanding for a year or more at the Crown Court	Negative
-Trial cases outstanding for a year or more at the Crown Court (not remanded in custody)	Negative
-Trial cases outstanding for a year or more at the Crown Court (remanded in custody)	Negative
-Cases in which the victim or witness no longer supports prosecution on the day of trial (%)	Negative
-Receipts at the Crown Court	Positive
-Investigation closed because no suspect is identified: offences with no specific victims	Negative
-Investigation closed because no suspect is identified: offences with no specific victims (%)	Negative
-Investigation closed because no suspect is identified: offences with no specific victims (per 100,000 population)	Negative
-Investigation closed because no suspect is identified: victim-based offences	Negative
-Investigation closed because no suspect is identified: victim-based offences (%)	Negative
-Investigation closed because no suspect is identified: victim-based offences (per 100,000 population)	Negative
-Investigations where an offender is issued with a charge outcome: offences with no specific victims	Positive
-Investigations where an offender is issued with a charge outcome: offences with no specific victims (%)	Positive
-Investigations where an offender is issued with a charge outcome: offences with no specific victims (per 100,000 population)	Positive
-Investigations where an offender is issued with a charge outcome: victim-based offences	Positive
-Investigations where an offender is issued with a charge outcome: victim-based offences (%)	Positive
-Investigations where an offender is issued with a charge outcome: victim-based offences (per 100,000 population)	Positive
-Offences with no specific victims where an offender is issued with a successful outcome	Positive
-Offences with no specific victims where an offender is issued with a successful outcome (%)	Positive
-Offences with no specific victims where an offender is issued with a successful outcome (per 100,000 population)	Positive
-Recorded offences: no specific victims	Negative
-Recorded offences: no specific victims (per 100,000 population)	Negative
-Recorded offences: victim-based	Negative
-Recorded offences: victim-based (per 100,000 population)	Negative
-Victim-based offences where an offender is issued with a successful outcome	Positive
-Victim-based offences where an offender is issued with a successful outcome (%)	Positive
-Victim-based offences where an offender is issued with a successful outcome (per 100,000 population)	Positive
-Average days taken for police to charge an offender in cases where there is no specific victim	Negative
-Average days taken for police to charge an offender in victim-based cases	Negative
-Average days taken for police to record a successful outcome in cases where there is no specific victim	Negative
-Average days taken for police to record a successful outcome in victim-based cases	Negative
-Guilty plea rate for serious magistrates' court cases (%)	Positive
+Cases the police refer to the CPS for a charging decision	True
+Cases the police refer to the CPS for a charging decision (per 100,000 population)	True
+Cases where a guilty plea is expected and entered at the first court hearing (%)	True
+Investigations closed because no suspect has been identified (%)	False
+Investigations which result in a charge (% of all investigations closed in the same time period)	True
+Investigations which result in a charge in the same time period in which the offence is recorded (%)	True
+Not-guilty expected plea cases submitted by the police that comply with the guidance on charging (%)	True
+Not-guilty expected plea cases submitted by the police that have been assessed against the guidance on charging	True
+Recorded adult rape offences	False
+Recorded adult rape offences (per 100,000 population)	False
+Average days taken for police to charge an offender	False
+Average days taken for police to record a successful outcome	True
+Investigations closed because the victim does not support police action (%)	False
+Number of suspects the police refer to the CPS for early advice or for a charging decision	True
+Number of suspects the police refer to the CPS for early advice or for a charging decision (per 100,000 population)	True
+Legal decisions by the CPS that result in a charge (%)	True
+Legal decisions by the CPS that result in an out of court disposal (%)	True
+Legal decisions by the CPS where the decision is not to prosecute (%)	False
+Number of suspects finalised on the CPS system where further investigation is needed and a response is pending from the police	False
+Number of suspects finalised on the CPS system where further investigation is needed and a response is pending from the police (per 100,000 population)	False
+Number of suspects waiting for the CPS to provide early advice or a charging decision, or with the police needing further investigation	False
+Number of suspects waiting for the CPS to provide early advice or a charging decision, or with the police needing further investigation (per 100,000 population)	False
+Number of suspects where a CPS decision on charging has been made	True
+Number of suspects where a CPS decision on charging has been made (per 100,000 population)	True
+Number of suspects where the CPS decided to authorise a charge or out of court disposal, not to allow charge or that further investigation is needed and a response is pending from the police	False
+Number of suspects where the CPS decided to authorise a charge or out of court disposal, not to allow charge or that further investigation is needed and a response is pending from the police (per 100,000 population)	False
+Post-trial cases where the decisions to charge and proceed to trial are correct (%)	True
+Prosecutions stopped by the CPS	False
+Prosecutions stopped by the CPS (per 100,000 population)	False
+Average days from police referring a case to the CPS and the CPS authorising a charge	False
+Defendants who have a case outstanding in the magistrates' courts or at the Crown Court	False
+Defendants who have a case outstanding in the magistrates' courts or at the Crown Court (per 100,000 population)	False
+Legal pre-charge reviews completed by the CPS within 28 days (%)	True
+Cases stopped after a defendant has been charged because a victim no longer supports the prosecution (%)	False
+Number of suspects the CPS authorised to be charged	True
+Number of suspects the CPS authorised to be charged (per 100,000 population)	True
+Cases where the prosecution end cases on the day of trial (%)	False
+Cases which are rearranged on the day of trial (%)	False
+Cases which resulted in a completed trial (%)	True
+Cases which resulted in a completed trial or guilty plea (%)	True
+Completed cases at the Crown Court	True
+Early guilty plea rate (%)	True
+Guilty plea rate (%)	True
+Witnesses who have given evidence via Section 28	True
+Average days from arrival to case completion at the Crown Court	False
+Average days from case arrival at the Crown Court to case completion (not remanded in custody)	False
+Average days from case arrival at the Crown Court to case completion (remanded in custody)	False
+Average days from charge to case arrival at the Crown Court	False
+Average days from charge to case arrival at the Crown Court (not remanded in custody)	False
+Average days from charge to case arrival at the Crown Court (remanded in custody)	False
+Average days from charge to case completion (not remanded in custody)	False
+Average days from charge to case completion (remanded in custody)	False
+Average days from charge to case completion at the Crown Court	False
+Cases outstanding at the Crown Court	False
+Trial cases outstanding for a year or more at the Crown Court	False
+Trial cases outstanding for a year or more at the Crown Court (not remanded in custody)	False
+Trial cases outstanding for a year or more at the Crown Court (remanded in custody)	False
+Cases in which the victim or witness no longer supports prosecution on the day of trial (%)	False
+Receipts at the Crown Court	True
+Investigation closed because no suspect is identified: offences with no specific victims	False
+Investigation closed because no suspect is identified: offences with no specific victims (%)	False
+Investigation closed because no suspect is identified: offences with no specific victims (per 100,000 population)	False
+Investigation closed because no suspect is identified: victim-based offences	False
+Investigation closed because no suspect is identified: victim-based offences (%)	False
+Investigation closed because no suspect is identified: victim-based offences (per 100,000 population)	False
+Investigations where an offender is issued with a charge outcome: offences with no specific victims	True
+Investigations where an offender is issued with a charge outcome: offences with no specific victims (%)	True
+Investigations where an offender is issued with a charge outcome: offences with no specific victims (per 100,000 population)	True
+Investigations where an offender is issued with a charge outcome: victim-based offences	True
+Investigations where an offender is issued with a charge outcome: victim-based offences (%)	True
+Investigations where an offender is issued with a charge outcome: victim-based offences (per 100,000 population)	True
+Offences with no specific victims where an offender is issued with a successful outcome	True
+Offences with no specific victims where an offender is issued with a successful outcome (%)	True
+Offences with no specific victims where an offender is issued with a successful outcome (per 100,000 population)	True
+Recorded offences: no specific victims	False
+Recorded offences: no specific victims (per 100,000 population)	False
+Recorded offences: victim-based	False
+Recorded offences: victim-based (per 100,000 population)	False
+Victim-based offences where an offender is issued with a successful outcome	True
+Victim-based offences where an offender is issued with a successful outcome (%)	True
+Victim-based offences where an offender is issued with a successful outcome (per 100,000 population)	True
+Average days taken for police to charge an offender in cases where there is no specific victim	False
+Average days taken for police to charge an offender in victim-based cases	False
+Average days taken for police to record a successful outcome in cases where there is no specific victim	False
+Average days taken for police to record a successful outcome in victim-based cases	False
+Guilty plea rate for serious magistrates' court cases (%)	True
